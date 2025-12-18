@@ -1,0 +1,96 @@
+{
+  "router": {
+    "active_modules": ["tributario"],
+    "scores": {
+      "tributario": 10,
+      "consumidor": 0,
+      "civil": 0
+    },
+    "evidence": [
+      { "value": "Execução Fiscal", "page": 1 },
+      { "value": "CDA", "page": 2 }
+    ]
+  },
+  "metadata": {
+    "processo": { "value": "5001234-56.2023.8.13.0001", "page": 1 },
+    "juizo": { "value": "2ª Vara da Fazenda Pública da Comarca de Exemplo/MG", "page": 1 },
+    "valor_causa": { "value": "R$ 48.900,00", "page": 1 }
+  },
+  "partes": {
+    "ativo": {
+      "nome": { "value": "Município de Exemplo", "page": 1 },
+      "cpf_cnpj": { "value": "00.000.000/0001-00", "page": 1 },
+      "advogados": [
+        { "value": "Procuradoria-Geral do Município (OAB/MG 00000)", "page": 1 }
+      ]
+    },
+    "passivo": {
+      "nome": { "value": "Empresa Alpha Ltda.", "page": 1 },
+      "cpf_cnpj": { "value": "11.111.111/0001-11", "page": 1 },
+      "advogados": [
+        { "value": "Fulano de Tal (OAB/MG 12.345)", "page": 3 }
+      ]
+    }
+  },
+  "cronologia_processual": [
+    {
+      "evento": { "value": "Distribuição", "page": 1 },
+      "data": { "value": "15/03/2023", "page": 1 }
+    },
+    {
+      "evento": { "value": "Citação", "page": 3 },
+      "data": { "value": "10/04/2023", "page": 3 }
+    }
+  ],
+  "substancia_processual": {
+    "pedidos_autor": [
+      {
+        "value": "a) a citação do executado para pagar a dívida no prazo legal, sob pena de penhora; b) a condenação ao pagamento do débito inscrito em dívida ativa, com os encargos legais.",
+        "page": 2
+      }
+    ],
+    "teses_defesa": [
+      {
+        "value": "O executado suscita prescrição, sustentando que transcorreram mais de 5 (cinco) anos entre a constituição definitiva do crédito e o ajuizamento da execução fiscal.",
+        "page": 4
+      }
+    ],
+    "dispositivo_decisao": { "value": null, "page": null }
+  },
+  "modulos_especializados": {
+    "tributario": {
+      "cda": {
+        "value": "CDA nº 2020/000123 — Tributo: IPTU — Exercício: 2017 — Valor originário: R$ 35.000,00 — Encargos: multa e juros.",
+        "page": 2
+      },
+      "datas_relevantes": [
+        {
+          "label": { "value": "Fato Gerador", "page": 2 },
+          "data": { "value": "Exercício 2017", "page": 2 }
+        },
+        {
+          "label": { "value": "Inscrição em Dívida Ativa", "page": 2 },
+          "data": { "value": "20/02/2020", "page": 2 }
+        }
+      ],
+      "trechos_prescricao": [
+        {
+          "value": "O executado suscita prescrição, sustentando que transcorreram mais de 5 (cinco) anos entre a constituição definitiva do crédito e o ajuizamento.",
+          "page": 4
+        }
+      ]
+    },
+    "consumidor": null,
+    "civil": null
+  },
+  "integridade": {
+    "sucesso": false,
+    "total_paginas": 12,
+    "paginas_lidas_com_texto": 12,
+    "paginas_com_ocr_necessario": [],
+    "campos_criticos_ausentes": [
+      "modulos_especializados.tributario.datas_relevantes[label='Lançamento'].data.value",
+      "substancia_processual.dispositivo_decisao.value"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "router": {
+    "active_modules": ["tributario", "civil"],
+    "scores": { "tributario": 8, "consumidor": 0, "civil": 4 },
+    "evidence": [
+      { "value": "ISS", "page": 2 },
+      { "value": "Rescisão", "page": 5 }
+    ]
+  },
+  "metadata": {
+    "processo": { "value": "5400000-77.2023.8.13.0001", "page": 1 },
+    "juizo": { "value": "Vara da Fazenda Pública de Exemplo/MG", "page": 1 },
+    "valor_causa": { "value": "R$ 80.000,00", "page": 1 }
+  },
+  "partes": {
+    "ativo": { "nome": { "value": "Município de Exemplo", "page": 1 }, "cpf_cnpj": { "value": "00.000.000/0001-00", "page": 1 }, "advogados": [] },
+    "passivo": { "nome": { "value": "Empresa Tau Ltda.", "page": 1 }, "cpf_cnpj": { "value": "88.888.888/0001-88", "page": 1 }, "advogados": [] }
+  },
+  "cronologia_processual": [],
+  "substancia_processual": {
+    "pedidos_autor": [],
+    "teses_defesa": [
+      { "value": "Discute-se a incidência de ISS sobre determinada atividade, em paralelo a controvérsias contratuais.", "page": 5 }
+    ],
+    "dispositivo_decisao": { "value": null, "page": null }
+  },
+  "modulos_especializados": {
+    "tributario": {
+      "cda": { "value": null, "page": null },
+      "datas_relevantes": [],
+      "trechos_prescricao": []
+    },
+    "consumidor": null,
+    "civil": {
+      "clausulas_controvertidas": [
+        { "value": "Cláusula X: ...", "page": 6 }
+      ],
+      "trechos_responsabilidade": []
+    }
+  },
+  "integridade": {
+    "sucesso": true,
+    "total_paginas": 9,
+    "paginas_lidas_com_texto": 9,
+    "paginas_com_ocr_necessario": [],
+    "campos_criticos_ausentes": []
+  }
+}

@@ -1,0 +1,76 @@
+PARECER JURÍDICO: ANÁLISE ESTRATÉGICA TRIBUTÁRIA
+
+1. Quadro fático (estritamente do JSON)
+
+Trata-se de Execução Fiscal (termos identificados: “Execução Fiscal” e “CDA”) (Pág. 1–2), sob o processo nº 5001234-56.2023.8.13.0001 (Pág. 1), em trâmite perante a 2ª Vara da Fazenda Pública da Comarca de Exemplo/MG (Pág. 1), com valor da causa de R$ 48.900,00 (Pág. 1).
+
+No polo ativo figura o Município de Exemplo (CNPJ 00.000.000/0001-00) (Pág. 1), representado pela Procuradoria-Geral do Município (OAB/MG 00000) (Pág. 1). No polo passivo figura Empresa Alpha Ltda. (CNPJ 11.111.111/0001-11) (Pág. 1), representada por Fulano de Tal (OAB/MG 12.345) (Pág. 3).
+
+Consta a Distribuição em 15/03/2023 (Pág. 1) e a Citação em 10/04/2023 (Pág. 3). O pedido executivo inclui citação para pagamento sob pena de penhora e condenação ao pagamento do débito inscrito em dívida ativa (Pág. 2).
+
+O relatório registra CDA com identificação: “CDA nº 2020/000123 — Tributo: IPTU — Exercício: 2017 — Valor originário: R$ 35.000,00 — Encargos: multa e juros.” (Pág. 2). Consta marco de Inscrição em Dívida Ativa em 20/02/2020 (Pág. 2) e referência ao fato gerador como “Exercício 2017” (Pág. 2).
+
+Há tese defensiva registrada: alegação de prescrição, sustentando lapso superior a 5 anos entre constituição definitiva do crédito e ajuizamento (Pág. 4).
+
+Integridade do relatório (condicionante)
+
+O relatório indica integridade.sucesso = false por ausência de campos críticos, incluindo: (i) data de “Lançamento” (não informada) e (ii) dispositivo decisório inexistente no relatório (Pendente) (campos críticos ausentes listados no próprio JSON). Assim, este parecer é condicional no que depende desses marcos.
+
+2. Questões jurídicas relevantes (issues)
+
+Há elementos suficientes para avaliar prescrição do crédito tributário em execução fiscal, considerando a data de inscrição em dívida ativa (20/02/2020) (Pág. 2) e a data de distribuição (15/03/2023) (Pág. 1)?
+
+A ausência de data explícita de lançamento/constituição definitiva inviabiliza (por ora) conclusão segura sobre decadência e sobre o termo inicial do prazo prescricional alegado (Pág. 2 e campos ausentes)?
+
+Há necessidade de obter documentos/marcos do processo administrativo para delimitar constituição definitiva e eventual suspensão/interrupção do prazo, uma vez que o relatório não traz tais elementos?
+
+3. Teses (principal e subsidiárias)
+3.1. Tese principal (condicional): prescrição — necessidade de marcos completos
+
+O relatório traz alegação expressa de prescrição (Pág. 4), porém não fornece a data de lançamento/constituição definitiva, nem eventuais causas suspensivas/interrompedoras.
+
+Com os dados atuais, é possível apenas apontar que entre a Inscrição em Dívida Ativa (20/02/2020) (Pág. 2) e a Distribuição (15/03/2023) (Pág. 1) decorreu período inferior a 5 anos, o que, isoladamente, não confirma a alegação de prescrição. Todavia, a tese defensiva pode ganhar força se:
+
+a constituição definitiva for significativamente anterior,
+
+houver inércia superior a 5 anos em algum intervalo juridicamente relevante,
+
+ou se houver nulidade/inexistência de atos interruptivos válidos (hipóteses que dependem de dados não presentes no relatório).
+
+Conclusão parcial: a prescrição não pode ser afirmada nem descartada com segurança sem a data de lançamento/constituição definitiva e sem a cadeia de eventos do processo administrativo (lacuna reconhecida no bloco de integridade).
+
+3.2. Tese subsidiária: controle formal da CDA (apenas com base no que consta)
+
+A CDA apresentada no relatório contém identificação (número, tributo IPTU, exercício, valor originário e menção a encargos) (Pág. 2). Sem acesso ao teor integral e aos requisitos formais detalhados no documento, não é possível afirmar nulidade formal; porém, é recomendável conferir, por estratégia defensiva, se o título atende aos requisitos legais pertinentes (especialmente quanto a origem/forma de cálculo/termo inicial e fundamentação dos encargos), pois o relatório menciona genericamente “multa e juros” (Pág. 2) sem detalhamento.
+
+4. Plano de ação / medidas processuais (compatíveis com os dados)
+
+Como o relatório identifica contexto de Execução Fiscal e CDA (Pág. 1–2), as vias típicas de defesa a serem consideradas, de modo condicionado ao estágio e à garantia do juízo, incluem:
+
+Exceção de pré-executividade (se a matéria for de ordem pública e comprovável documentalmente, como prescrição com datas incontroversas);
+
+Embargos à execução (se houver garantia do juízo e necessidade de dilação probatória).
+
+A escolha entre essas vias depende de elementos não presentes no relatório (especialmente a completude dos marcos e se houve garantia/penhora), devendo ser confirmada.
+
+5. Checklist probatório / lacunas (o que obter e por quê)
+
+Data do Lançamento / Constituição definitiva do crédito (campo crítico ausente): essencial para avaliar decadência e termo inicial da prescrição.
+
+Inteiro teor do processo administrativo fiscal (notificações, decisões, eventuais recursos): para verificar constituição definitiva e possíveis causas suspensivas/interrompedoras.
+
+Teor integral da CDA (além do extrato): para auditoria de requisitos formais e eventual tese de nulidade.
+
+Situação do feito executivo (penhora/garantia/decisões): para definir via adequada (exceção vs embargos).
+
+Dispositivo de eventual decisão (campo crítico ausente): para avaliar necessidade/viabilidade de recursos e correções (se aplicável).
+
+6. Prognóstico (condicional e justificado)
+
+Diante das lacunas críticas apontadas no próprio relatório (ausência de data de lançamento/constituição definitiva e de dispositivo decisório), a avaliação de êxito é condicional.
+
+Probabilidade de êxito na tese de prescrição: Possível, mas não mensurável com segurança sem a data de constituição definitiva e a cadeia de atos administrativos.
+
+Probabilidade de êxito em teses formais de CDA: Indeterminada no estado atual, pois o relatório traz apenas extrato parcial do título.
+
+Recomendação: obter os itens do checklist e, após complementação do relatório (ou atualização do Auditor), reavaliar o “silver bullet” com marcos completos.
